@@ -74,7 +74,7 @@ export default {
     <div class="h-screen w-1/3 bg-desktopBackground bg-no-repeat bg-cover
       mobile:bg-mobileBackground mobile:w-screen mobile:h-[30vh]"/>
     <div class="w-2/3 h-screen | flex items-center
-      mobile:w-screen mobile:h-[70vh] mobile:justify-center mobile:items-start mobile:mt-[20%]">
+      mobile:w-screen mobile:h-[70vh] mobile:justify-center mobile:items-start mobile:mt-[30%]">
       <form class="flex flex-col w-2/5 ml-[40%]
         mobile:w-[90%] mobile:m-0" @submit.prevent="checkAll" v-if="!validated">
         <div class="flex flex-col mb-6">
