@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root{
+        --color-firstGradient: 249deg 99% 64%;
+        --color-secondGradient: 278deg 94% 30%;
+        --color-white: 0deg 0% 100%;
+        --color-lightGrayishViolet: 270deg 3% 87%;
+        --color-darkGrayishViolet: 279deg 6% 55%;
+        --color-veryDarkViolet: 278deg 68% 11%;
+        font-family: 'Space Grotesk', sans-serif;
+
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
