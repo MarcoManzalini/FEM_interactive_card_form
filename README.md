@@ -11,6 +11,7 @@ This is a solution to the [Interactive card details form challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [Problems](#problems)
 
 
 ## Overview
@@ -46,3 +47,8 @@ Users should be able to:
 
 ## Author
 - Frontend Mentor - [@MarcoManzalini](https://www.frontendmentor.io/profile/MarcoManzalini)
+
+- ## Problems
+- As you can see the site background isn't being loaded because when i digited 'npm run build' the backgounds weren't loaded in the dist folder.
+- I tried to fix it multiple times but I can't get what's wrong.
+- But the challenge is completed, the screenshot is OK 
